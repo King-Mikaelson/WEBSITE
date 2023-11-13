@@ -5,7 +5,7 @@ import { DM_Sans } from "next/font/google";
 import Link from "next/link";
 import React from "react";
 import { BsArrowRightShort, BsCheck2Circle } from "react-icons/bs";
-import BusinessPlan from "../../../public/VarsconLogo.png";
+import BusinessPlan from "../../../public/varsconLogo.png";
 import Image from "next/image";
 import CheckMark from "../../../public/dev.svg";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";

@@ -38,7 +38,7 @@ function DevShop() {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-3 grid-cols-1 items-center gap-5 px-4  lg:px-20 xl:px-48  relative">
+          <div className="grid lg:grid-cols-3 grid-cols-1 items-center justify-center gap-5 px-4  lg:px-20 xl:px-48  relative">
             <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4">
               <Image src={dev} alt="dev" className="" priority={true} />
 

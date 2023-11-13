@@ -39,7 +39,7 @@ export default function Advisory() {
           </div>
 
           <div className="lg:grid grid-cols-3 flex flex-col lg:flex-row gap-5 px-4  lg:px-20 xl:px-48  relative">
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center lg:items-start justify-center lg:justify-start">
               <Image src={dev} alt="dev" className="" priority={true} />
 
               <div className="flex flex-col gap-1">
@@ -52,7 +52,7 @@ export default function Advisory() {
                 </p>
               </div>
             </div>
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center  lg:items-start justify-center lg:justify-start">
               <div>
                 <Image src={dev2} alt="dev2" priority={true} />
               </div>
@@ -67,7 +67,7 @@ export default function Advisory() {
                 </p>
               </div>
             </div>
-            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4 items-center  lg:items-start justify-center lg:justify-start">
               <Image src={dev3} alt="dev3" className="" priority={true} />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">

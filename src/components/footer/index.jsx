@@ -25,7 +25,7 @@ function Footer() {
         </div>
 
         <Link
-          href={"/home"}
+          href={"/"}
           className="lg:text-[0.9375rem] text-base font-sans text-[#1E2833]"
         >
           Home
@@ -73,7 +73,7 @@ function Footer() {
           <span>
             <AiOutlineCopyrightCircle />
           </span>
-          2023 Convey Dot Africa Limited. All rights reserved.
+          2023 Varscon All rights reserved.
         </p>
         <p className="lg:text-center">
           Any unauthorized redistribution or reproduction of any copyrighted

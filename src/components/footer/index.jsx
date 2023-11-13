@@ -45,12 +45,18 @@ function Footer() {
           Advisory
         </Link>
 
-        <Link href={"/recruitment"} className="lg:text-[0.9375rem] text-base font-sans text-[#1E2833]">
-        Recruitment
+        <Link
+          href={"/recruitment"}
+          className="lg:text-[0.9375rem] text-base font-sans text-[#1E2833]"
+        >
+          Recruitment
         </Link>
 
-        <Link href={"/contactUs"} className="lg:text-[0.9375rem] text-base font-sans text-[#1E2833]">
-       Contact
+        <Link
+          href={"/contactUs"}
+          className="lg:text-[0.9375rem] text-base font-sans text-[#1E2833]"
+        >
+          Contact
         </Link>
 
         {/* <p className="lg:text-[0.9375rem] gap-1 flex items-center text-base font-sans text-[#1E2833] opacity-50">
@@ -61,7 +67,7 @@ function Footer() {
           2023 Varscon All rights reserved.
         </p> */}
       </div>
-      <div className="lg:flex lg:justify-center lg:items-center flex-col gap-1 mt-10 lg:mt-0">
+      <div className="md:flex md:justify-center md:items-center flex-col gap-1 mt-10 lg:mt-0">
         <p className="text-[0.9375rem] gap-1 flex items-center  font-sans text-[#1E2833] opacity-50 text-center ">
           Copyright
           <span>

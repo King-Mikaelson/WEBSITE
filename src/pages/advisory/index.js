@@ -39,12 +39,12 @@ export default function Advisory() {
           </div>
 
           <div className="lg:grid grid-cols-3 flex flex-col lg:flex-row gap-5 px-4  lg:px-20 xl:px-48  relative">
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
               <Image src={dev} alt="dev" className="" priority={true} />
 
               <div className="flex flex-col gap-1">
                 <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
-                No-code solutions
+                  No-code solutions
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
                   Efficiently recruit, manage, and nurture diverse engineering
@@ -52,14 +52,14 @@ export default function Advisory() {
                 </p>
               </div>
             </div>
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
               <div>
                 <Image src={dev2} alt="dev2" priority={true} />
               </div>
 
               <div className="flex flex-col gap-1">
                 <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
-                Go-to-market strategy
+                  Go-to-market strategy
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
                   Efficiently recruit, manage, and nurture diverse engineering
@@ -67,11 +67,11 @@ export default function Advisory() {
                 </p>
               </div>
             </div>
-            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4">
+            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4 lg:items-start justify-center lg:justify-start">
               <Image src={dev3} alt="dev3" className="" priority={true} />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
-                Product development consultancy
+                  Product development consultancy
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
                   Efficiently recruit, manage, and nurture diverse engineering
@@ -82,7 +82,6 @@ export default function Advisory() {
           </div>
         </div>
       </main>
-
 
       <div className=" bg-white">
         <div className="lg:pt-16  pt-8  flex flex-col relative w-full items-center">

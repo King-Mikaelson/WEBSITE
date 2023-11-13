@@ -62,7 +62,7 @@ function Footer() {
         </p> */}
       </div>
       <div className="lg:flex lg:justify-center lg:items-center flex-col gap-1 mt-10 lg:mt-0">
-        <p className="text-[0.9375rem] gap-1 flex items-center  font-sans text-[#1E2833] opacity-50 ">
+        <p className="text-[0.9375rem] gap-1 flex items-center  font-sans text-[#1E2833] opacity-50 text-center ">
           Copyright
           <span>
             <AiOutlineCopyrightCircle />

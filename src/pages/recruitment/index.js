@@ -34,7 +34,7 @@ const Recruitment = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 items-center">
           <div className="flex flex-col order-2 lg:order-1">
             <div className="flex gap-5 flex-col">
-              <div className="flex gap-5  py-2">
+              {/* <div className="flex gap-5  py-2">
                 <Image
                   src={CheckMark}
                   alt="checkmark"
@@ -47,6 +47,24 @@ const Recruitment = () => {
                     are
                   </p>
                 </div>
+              </div> */}
+
+              <div className="flex gap-5   pb-2">
+                <Image
+                  src={CheckMark}
+                  alt="checkmark"
+                  className="w-16"
+                  priority={true}
+                />
+                <div className=" font-DMSans font-normal  text-[#869AB8] text-lg">
+                  <p
+                    className="text-[#271B36]
+font-bold "
+                  >
+                    Talent sourcing and management
+                  </p>
+                  <p>Leave the gruntwork of recruitment to the experts </p>
+                </div>
               </div>
 
               <div className="flex gap-5   pb-2">
@@ -57,7 +75,8 @@ const Recruitment = () => {
                   priority={true}
                 />
                 <div className="  font-DMSans font-normal  text-[#869AB8] text-lg">
-                  Internships and entry-level matching
+                  <p className="text-[#271B36]
+font-bold ">Internships and entry-level matching</p>
                   <p>
                     Recruit rising talents in the industry from our talent pool.
                   </p>
@@ -71,21 +90,14 @@ const Recruitment = () => {
                   className="w-16"
                   priority={true}
                 />
-                <div className="  font-DMSans font-normal  text-[#869AB8] text-lg">
-                  Efficiently recruit, manage, and nurture diverse engineering
-                  teams to drive project success.
-                </div>
-              </div>
-              <div className="flex gap-5   pb-2">
-                <Image
-                  src={CheckMark}
-                  alt="checkmark"
-                  className="w-16"
-                  priority={true}
-                />
-                <div className="  font-DMSans font-normal  text-[#869AB8] text-lg">
-                  Efficiently recruit, manage, and nurture diverse engineering
-                  teams to drive project success.
+                <div className=" font-DMSans font-normal  text-[#869AB8] text-lg">
+                  <p
+                    className="text-[#271B36]
+font-bold "
+                  >
+                    Hiring advisory
+                  </p>
+                  <p>Gain insight into your talent needs and hire up.</p>
                 </div>
               </div>
 
@@ -97,7 +109,12 @@ const Recruitment = () => {
                   priority={true}
                 />
                 <div className=" font-DMSans font-normal  text-[#869AB8] text-lg">
-                  Technical outsourcing
+                  <p
+                    className="text-[#271B36]
+font-bold "
+                  >
+                    Technical outsourcing
+                  </p>
                   <p>Find the right talent without hiring them</p>
                 </div>
               </div>
@@ -114,7 +131,7 @@ const Recruitment = () => {
         </div>
       </div>
       <main className="relative flex-col flex  w-full mt-12 ">
-      <div className="mt-10 relative">
+        <div className="mt-10 relative">
           <div className="absolute z-10 bottom-0 left-0 bg-[url(/Vector.png)] h-[40rem] w-full bg-center bg-cover bg-no-repeat"></div>
           <div className="clip-your-needful-style1 bg-[url(/sigmund-eTgMFFzroGc-unsplash.jpg)] h-[51.9rem] w-full bg-center bg-cover bg-no-repeat "></div>
         </div>

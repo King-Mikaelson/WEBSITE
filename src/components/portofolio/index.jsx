@@ -90,7 +90,8 @@ function Portofolio() {
               DevShop
             </p>
             <p className="text-[#869AB8] text-[15px] font-DMSans font-normal">
-              Technical building services that supersede your business needs.
+              Technical building services that supersede your business needs and
+              expectations.{" "}
             </p>
 
             <div className="flex py-4">
@@ -106,17 +107,12 @@ function Portofolio() {
             </div>
           </div>
           <div className="bg-[#FFFFFF] py-8  px-6 object-contain rounded-lg  shadow-lg">
-            <Image
-              src={marketing}
-              alt="software"
-              priority={true}
-            />
+            <Image src={marketing} alt="software" priority={true} />
             <p className="text-[#162D1B] text-lg font-DMSans font-medium py-2">
               Technical Advisory
             </p>
             <p className="text-[#869AB8] text-[15px] font-DMSans font-normal">
-              Harness the power of consulting world-class senior managers in
-              scaling your business.
+            Harness the power of consulting elite senior managers in scaling your business needs.
             </p>
 
             <div className="flex  py-4">
@@ -132,18 +128,12 @@ function Portofolio() {
             </div>
           </div>
           <div className="bg-[#FFFFFF] py-8 px-6 object-contain rounded-lg  shadow-lg">
-            <Image
-              src={hiring}
-              alt="software"
-              className=""
-              priority={true}
-            />
+            <Image src={hiring} alt="software" className="" priority={true} />
             <p className="text-[#162D1B] text-lg font-DMSans font-medium py-2">
               HireUp
             </p>
             <p className="text-[#869AB8] text-[15px] font-DMSans font-normal">
-              Recruit efficiently, manage adeptly, and consistently nurture
-              engineering teams of varying proficiency to propel your projects.
+            Recruit efficiently, manage, and nurture engineering teams to propel your projects.
             </p>
 
             <div className="flex py-4">

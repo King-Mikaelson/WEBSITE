@@ -39,30 +39,60 @@ function DevShop() {
           </div>
 
           <div className="grid lg:grid-cols-3 grid-cols-1 gap-5 px-4  lg:px-20 xl:px-48  relative">
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center  lg:items-start justify-center lg:justify-start">
-              <Image src={dev} alt="dev" className="w-16 h-16  lg:w-28 lg:h-28" priority={true} />
-
-              <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                Efficiently recruit, manage, and nurture diverse engineering
-                teams to drive project success.
-              </p>
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-2 items-center  lg:items-start justify-center lg:justify-start">
+              <Image
+                src={dev}
+                alt="dev"
+                className="w-16 h-16  lg:w-28 lg:h-28"
+                priority={true}
+              />
+              <div className="flex flex-col gap-1">
+                <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
+                  World-class  development
+                </h4>
+                <p className="text-[#869AB8] text-base font-DMSans font-normal">
+                  Access comprehensive software development, data analytics,
+                  cybersecurity for business
+                  solutions.
+                </p>
+              </div>
             </div>
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-2 items-center lg:items-start justify-center lg:justify-start">
               <div>
-                <Image src={dev2} alt="dev2" priority={true} className="w-16 h-16  lg:w-28 lg:h-28" />
+                <Image
+                  src={dev2}
+                  alt="dev2"
+                  priority={true}
+                  className="w-16 h-16  lg:w-28 lg:h-28"
+                />
               </div>
 
-              <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                Efficiently recruit, manage, and nurture diverse engineering
-                teams to drive project success.
-              </p>
+              <div className="flex flex-col gap-1">
+                <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
+                  Client-centric UX optimisation
+                </h4>
+                <p className="text-[#869AB8] text-base font-DMSans font-normal">
+                  Delegate all your software needs, sit back, and watch your
+                  customer satisfaction score soar.
+                </p>
+              </div>
             </div>
-            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4 items-center lg:items-start justify-center lg:justify-start">
-              <Image src={dev3} alt="dev3"className="w-16 h-16  lg:w-28 lg:h-28" priority={true} />
-              <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                Efficiently recruit, manage, and nurture diverse engineering
-                teams to drive project success.
-              </p>
+            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-2 items-center lg:items-start justify-center lg:justify-start">
+              <Image
+                src={dev3}
+                alt="dev3"
+                className="w-16 h-16  lg:w-28 lg:h-28"
+                priority={true}
+              />
+              <div className="flex flex-col gap-1">
+                <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans">
+                  Prototyping
+                </h4>
+                <p className="text-[#869AB8] text-base font-DMSans font-normal">
+                  Rapidly develop Minimum Viable Products (MVPs) to validate
+                  market viability with our skilled team.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -118,7 +148,6 @@ function DevShop() {
                 height={400}
                 className="h-16 w-8"
                 alt="number"
-
               />
 
               <div className="flex flex-col gap-1">
@@ -139,7 +168,6 @@ function DevShop() {
                 height={400}
                 className="h-16 w-8"
                 alt="number"
-
               />
 
               <div className="flex flex-col gap-1">
@@ -159,7 +187,6 @@ function DevShop() {
                 height={400}
                 className="h-16 w-8"
                 alt="number"
-
               />
 
               <div className="flex flex-col gap-1">

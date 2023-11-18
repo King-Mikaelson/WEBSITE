@@ -28,19 +28,19 @@ function Contact() {
 
   return (
     <main className="relative flex-col flex justify-center  w-full mt-12 ">
-      <div className=" lg:h-[100vh] pb-32  lg:pb-0 lg:pt-28  pt-14 clip-your-needful-style  flex  flex-col items-center relative bg-[#005F56] w-full ">
+      <div className=" pb-32   pt-14 clip-your-needful-style  flex  flex-col items-center relative bg-[#005F56] w-full z-50 ">
         <h1 className="font-DMSans font-bold  lg:leading-[4.5rem] pb-2  text-[#C9FCCF] lg:text-[3.75rem] text-4xl text-center flex tracking-wide">
           Contact Us
         </h1>
 
-        <h2 className="font-DMSans font-normal py-3 text-[#E0E0E0] text-lg text-center lg:w-[58ch]">
+        <h2 className="font-DMSans font-normal py-3 text-[#E0E0E0] text-lg text-center lg:w-[58ch] z-[9999999]">
           We will like to hear from you and learn about ways our services can
           provide for your business needs.
         </h2>
         <div className="hidden md:block absolute z-10 top-[-5rem]  bg-[url(/Vector2.png)] h-full w-full bg-center bg-cover bg-no-repeat"></div>
       </div>
 
-      <div className="xl:mt-[-29rem] lg:mt-[-29rem] flex flex-col gap-5 px-4 lg:px-20 xl:px-48 z-100 relative">
+      <div className=" flex flex-col gap-5 px-4 lg:px-20 xl:px-48 z-100 relative">
         <div className=" py-1 bg-white md:pt-24 lg:px-3 rounded-lg lg:shadow-lg  flex justify-center items-center flex-col">
           <h2 className="font-DMSans font-bold  lg:leading-[4.5rem] pb-2  text-[#162D1B] lg:text-[3.75rem] text-4xl text-center">
             Get in touch with us

@@ -39,7 +39,7 @@ export default function Advisory() {
           </div>
 
           <div className="lg:grid grid-cols-3 flex flex-col lg:flex-row gap-5 px-4  lg:px-20 xl:px-48  relative">
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-3 items-center lg:items-start justify-center lg:justify-start">
               <Image src={dev} alt="dev" className="w-16 h-16 lg:w-28 lg:h-28" priority={true} />
 
               <div className="flex flex-col gap-1">
@@ -47,12 +47,11 @@ export default function Advisory() {
                   No-code solutions
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                  Efficiently recruit, manage, and nurture diverse engineering
-                  teams to drive project success.
+                Build simple custom applications and workflows that automate business processes for your small business/project.
                 </p>
               </div>
             </div>
-            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-4 items-center  lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 md:pb-14 pb-8 px-6 flex flex-col gap-3 items-center  lg:items-start justify-center lg:justify-start">
               <div>
                 <Image src={dev2} alt="dev2" priority={true} className="w-16 h-16 lg:w-28 lg:h-28"/>
               </div>
@@ -62,20 +61,18 @@ export default function Advisory() {
                   Go-to-market strategy
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                  Efficiently recruit, manage, and nurture diverse engineering
-                  teams to drive project success.
+                Develop custom market strategies to conquer the marketplace and bring your business the competitive advantage it needs.
                 </p>
               </div>
             </div>
-            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-4 items-center  lg:items-start justify-center lg:justify-start">
+            <div className=" py-1 pb-8  md:pb-14 px-6 flex flex-col gap-3 items-center  lg:items-start justify-center lg:justify-start">
               <Image src={dev3} alt="dev3" className="w-16 h-16 lg:w-28 lg:h-28" priority={true} />
               <div className="flex flex-col gap-1">
                 <h4 className="text-[#271B36] text-[1.125rem] font-bold font-DMSans lg:whitespace-nowrap">
                   Product development consultancy
                 </h4>
                 <p className="text-[#869AB8] text-base font-DMSans font-normal">
-                  Efficiently recruit, manage, and nurture diverse engineering
-                  teams to drive project success.
+                Enhance project management by leveraging the insights of senior managers to meticulously track and optimize your projects.
                 </p>
               </div>
             </div>
